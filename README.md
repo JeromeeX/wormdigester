@@ -17,12 +17,12 @@ You can check the enzyme list by running the following code:
 print(enzymes) # Generating a list that includes all the available endonucleases
 ```
 
-To generate figure 1:
+To generate **figure 1**:
 ```python
 fig1(zyme1, zyme2) # Replace zyme1 and zyme2 by endonucleases in the enzyme list generated above
 ```
 
-To generate figure 2:
+To generate **figure 2**:
 ```python
 fig2(zyme1, zyme2) # Replace zyme1 and zyme2 by endonucleases in the enzyme list generated above
 ```
@@ -30,7 +30,7 @@ fig2(zyme1, zyme2) # Replace zyme1 and zyme2 by endonucleases in the enzyme list
 Examples have been included in the repository.
 
 ### Enzymes
-The existing enzyme list included AflII, ApaI, ApaLI, BamHI-HF, BglII, BsmAI, DpnI, DraI, EagI-HF, EcoRI-HF, EcoRV-HF, HindIII-HF, HpaII, KpnI-HF, MboI, NaeI, NcoI, NdeI, NheI, PmlI, PstI-HF, PvuII, SacI-HF, SacII, SalI-HF, SapI, XbaI, and XhoI. The restriction sites are recorded in lab_enzymes.fa, to append the enzyme list, you can add the enzyme information to lab_enzymes.fa in this form:
+The existing enzyme list included AflII, ApaI, ApaLI, BamHI-HF, BglII, BsmAI, DpnI, DraI, EagI-HF, EcoRI-HF, EcoRV-HF, HindIII-HF, HpaII, KpnI-HF, MboI, NaeI, NcoI, NdeI, NheI, PmlI, PstI-HF, PvuII, SacI-HF, SacII, SalI-HF, SapI, XbaI, and XhoI. The restriction sites are recorded in **lab_enzymes.fa**, to append the enzyme list, you can add the enzyme information to **lab_enzymes.fa** in this form:
 ```python
 >New enzyme         # Replace with enzyme name here, e.g., SgbI
 restriction site    # Replace with restriction site here in ALL CAPITAL, e.g., ATGCTATC
