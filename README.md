@@ -11,7 +11,7 @@ WormDigester is a versatile program that simulates genomic DNA digestion of an N
 1. Generating the result of **genomic DNA** digestion by one or two endonucleases (annotated as **figure 1**).
 2. Generating the comparison of **array fragment percentage in size-selected DNA** inbetween unselected, SRE XS selected, and SRE selected DNA (annotated as **figure 2**).
 
-By depleting shredded gDNA fragments while keeping the array undigested, size selection can enrich the proportion of array DNA and contribute to a potential strategy in targeted sequencing of array.
+By depleting shredded gDNA fragments while keeping the array undigested, size selection can enrich array DNA and contribute to a potential strategy in targeted sequencing of array.
 
 ### General usage
 You can check the enzyme list by running the following code:
